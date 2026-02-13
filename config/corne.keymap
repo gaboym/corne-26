@@ -72,12 +72,11 @@
         esp_layer {
             display-name = "ESP";
             bindings = <
-&kp TAB    &kp EXCL      &kp AT      &kp HASH          &kp LS(GRAVE)   &kp PRCNT               &kp CARET              &kp AMPS         &kp KP_MULTIPLY    &kp SLASH      &kp GRAVE  &kp BSPC
-&kp LCTRL  &kp QUESTION  &kp DOLLAR  &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp BSLH   &kp GRAVE
-&kp LSHFT  &kp PIPE      &kp UNDER   &kp KP_EQUAL      &kp PLUS        &kp KP_MINUS            &kp UNDER              &kp PLUS         &kp LBRC           &kp RBRC       &kp PIPE   &kp TILDE
+&none      &kp EXCL      &kp AT      &kp HASH          &kp LS(GRAVE)   &kp PRCNT               &kp CARET              &kp AMPS         &kp KP_MULTIPLY    &kp SLASH    &kp GRAVE  &kp BSPC
+&kp LCTRL  &kp QUESTION  &kp DOLLAR  &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &ES_eniemin  &kp BSLH   &kp GRAVE
+&kp LSHFT  &kp PIPE      &kp UNDER   &kp KP_EQUAL      &kp PLUS        &kp KP_MINUS            &kp UNDER              &kp PLUS         &kp LBRC           &kp RBRC     &kp PIPE   &kp TILDE
                                      &kp LGUI          &trans          &kp SPACE               &kp RET                &trans           &kp RALT
             >;
-
         };
 
         extra_2 { status = "reserved"; };
