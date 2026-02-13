@@ -70,10 +70,7 @@
         };
 
         extra_1 {
-            display-name = "Raise";
-            bindings = <
-
-            >;
+            status = "reserved";
         };
 
         extra_2 { status = "reserved"; };
